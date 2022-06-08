@@ -429,7 +429,7 @@ section i{
 }
 
 .form .contact-form input{
-    width: 30rem;
+    width: 50rem;
     background-color: transparent;
     border: 0;
     border: transparent;
@@ -455,7 +455,7 @@ section i{
 
 
 .form .contact-form textarea{
-    width: 30rem;
+    width: 50rem;
     height: 10rem;
     background-color: transparent;
     margin: 2rem;
