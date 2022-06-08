@@ -24,7 +24,7 @@ a{
     justify-content: space-between;
     padding: 0 10rem;
     align-items: center;
-    z-index: 1000;
+    z-index: 1000000000;
     position: fixed;
     width: 100%;
 
@@ -933,6 +933,7 @@ section i{
 
   .charges {
     color: rgb(10, 8, 8);
+    font-size: 1.7rem;
 }
   
 
