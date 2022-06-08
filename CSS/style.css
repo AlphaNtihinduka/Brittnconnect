@@ -19,7 +19,7 @@ a{
 /* ---------------------------------------------------------NAV-BAR-SECTION----------------------------------------------- */
 
 .navbar{
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .8);
     display: flex;
     justify-content: space-between;
     padding: 0 10rem;
@@ -386,17 +386,18 @@ a{
     color: #727272;
 }
 
-.plan-card-footer-button{
+.plan-card-footer-button a{
     padding: 3rem;
     font-size: 1.8rem;
     color: #009EE3;
 }
 
-.plan-card-footer-button:hover{
+.plan-card-footer-button a:hover{
     background-color: #009EE3;
     transition: .9s all;
     cursor: pointer;
     color: #fff;
+    display: inline-block;
 }
 
 
@@ -404,7 +405,6 @@ a{
 /* ------------------------------------------CONTACT-PAGE-------------------------------------- */
 .content section{
     margin: 5vh;
-    margin-left: 30vh;
 }
 
 section i{
@@ -418,15 +418,14 @@ section i{
 
 .form{
     display: flex;
-    position: absolute;
-    top: 130%;
-    left: 10%;
-    margin-left: 50%;
-    align-items: center;
+    justify-content: center;
 }
 
 .content-form{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    color: #727272;
 }
 
 .form .contact-form input{
@@ -434,7 +433,7 @@ section i{
     background-color: transparent;
     border: 0;
     border: transparent;
-    margin: 2rem;
+    margin: 1rem;
     padding: 1.4rem;
     font-size: 1.8rem;
     border: .2rem solid silver;
@@ -457,6 +456,7 @@ section i{
 
 .form .contact-form textarea{
     width: 30rem;
+    height: 10rem;
     background-color: transparent;
     margin: 2rem;
     font-size: 1.7rem;
@@ -673,6 +673,10 @@ section i{
         display: block;
     }
 
+    .content-form {
+        font-size: 1.8rem;
+    }
+
     .navbar .right-nav .nav-links{
         position: fixed;
         width: 100%;
@@ -790,14 +794,6 @@ section i{
         font-size: 3rem;
     }
 
-
-    .form{
-        top: 135%;
-    }
-
-    .content section{
-        margin-left: 20vh;
-    }
   }
   
 
@@ -832,6 +828,10 @@ section i{
 
     .sub-banner .subscription-par{
         font-size: 4rem;
+    }
+
+    .content-form {
+        font-size: 1.7rem;
     }
 
        /* -----------------blue-section---------------- */
@@ -928,12 +928,6 @@ section i{
 
     .content section{
         margin-left: 5vh;
-    }
-
-    .form{
-        position: absolute;
-        left: 10%;
-        margin-left: 40%;
     }
   }
   
